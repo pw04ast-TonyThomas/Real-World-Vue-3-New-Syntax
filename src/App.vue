@@ -12,13 +12,12 @@ import { RouterLink, RouterView } from 'vue-router'
         </nav>
       </div>
     </header>
-    <h1>Events For Good</h1>
-    <RouterView/>
+    <RouterView />
   </div>
 </template>
 
 <style>
-#layout{
+#layout {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

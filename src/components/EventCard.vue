@@ -4,12 +4,13 @@ import { ref } from 'vue'
 defineProps({
   event: {
     type: Object,
-    required: true
-  }
+    required: true,
+  },
 })
 </script>
 
 <template>
+  <h1>Events For Good</h1>
   <div class="event-card">
     <h2>{{ event.title }}</h2>
     <span>@{{ event.time }} on {{ event.date }}</span>
